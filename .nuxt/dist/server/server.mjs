@@ -1,1 +1,1 @@
-export { default } from "file:///home/enock/Learn/nuxt-app/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
+export { default } from "file:///home/enock/Projects/Attachment-app/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
