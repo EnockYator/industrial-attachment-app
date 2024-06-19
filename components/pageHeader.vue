@@ -34,7 +34,7 @@
             <ul>
                 <!--conditional rendering-->
                 <li v-if="!isLoginPage"><NuxtLink to="/login">Login</NuxtLink></li>
-                <li><NuxtLink to="/signup">Sign up</NuxtLink></li>
+                <li v-if="!isSignUp"><NuxtLink to="/signup">Sign up</NuxtLink></li>
             </ul>
             </div>
         </div>
@@ -44,6 +44,8 @@
 
 <script setup>
 // hide login link on login page header
+ 
+
 
 
 
@@ -65,6 +67,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     float: left;
+    
 }
 
 .first-navbar{
