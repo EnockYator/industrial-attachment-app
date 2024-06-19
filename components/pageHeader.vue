@@ -15,10 +15,11 @@
 
             <div class="header-quick-links">
                 <ul>
-                    <li><NuxtLink to="link">About Us</NuxtLink></li>
-                    <li><NuxtLink to="link">Media Centre</NuxtLink></li>
-                    <li><NuxtLink to="link">Careers</NuxtLink></li>
-                    <li><NuxtLink to="link">Contact Us</NuxtLink></li>
+                    <li><NuxtLink to="/">Home</NuxtLink></li>
+                    <li><NuxtLink to="about">About Us</NuxtLink></li>
+                    <li><NuxtLink to="dashboard">Dashboard</NuxtLink></li>
+                    <li><NuxtLink to="">Careers</NuxtLink></li>
+                    <li><NuxtLink to="contact">Contact us</NuxtLink></li>
                     
                 </ul>
             </div>
